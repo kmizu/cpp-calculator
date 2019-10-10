@@ -1,6 +1,9 @@
 #include <iostream>
 #include <Poco/RegularExpression.h>
- 
+#include <tao/pegtl.hpp>
+
+using namespace tao::pegtl;
+
 int main() {
     Poco::RegularExpression regexp("^[0-9]+");
  
