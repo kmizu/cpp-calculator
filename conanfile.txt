@@ -1,5 +1,6 @@
 [requires]
 Poco/1.9.0@pocoproject/stable
+pegtl/2.8.1@taocpp/stable
  
 [generators]
 cmake
