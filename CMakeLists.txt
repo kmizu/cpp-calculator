@@ -3,7 +3,7 @@ project(CppCalculator)
  
 add_definitions("-std=c++14")
  
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+include(build/conanbuildinfo.cmake)
 conan_basic_setup()
  
 add_executable(calculator Calculator.cpp)
